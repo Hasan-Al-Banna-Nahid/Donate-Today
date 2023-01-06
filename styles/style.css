@@ -5,8 +5,10 @@
 }
 /* Header Section Design */
 .header{
+    background-color: lightgray;
     background-image: url(../assests/images/donation1.jpg);
     background-repeat: no-repeat;
+    background-blend-mode: multiply;
     background-size: cover;
     /* background-blend-mode:exclusion,overlay; */
     height: 500px;
