@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header Section Design */
+.header{
+    background-image: url(../assests/images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode:exclusion,overlay; */
+    height: 500px;
+}
+
+.header-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    text-align: center;
+    background-blend-mode: darken;
+}
+.header-details>h1{
+    margin: 10px 0 20px 0;
+    color: white;   
+}
+.header-details>p{
+    margin: 25px 0;
+    color: grey;
+    padding: 0 10px;   
+}
+.header-details>h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.header-details p{
+    font-size: 18px;
+    color: rgba(245, 245, 245, 0.842);
+    
+}
+.primary-btn{
+   background-color: rgb(255, 99, 71);
+   padding: 10px 15px;
+   height: 45px;
+   font-weight: 530;
+   font-size: 18px;
+   width: 135px;
+   border: none;
+   border-radius: 5px;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.9);
+   cursor: pointer;
+   margin-bottom: 10px;
+}
+/* Donate Today Section design */
+.donate{
+    margin-top: 100px;
+    text-align: center;
+}
+.donate p{
+    color: grey;
+    font-size: 18px;
+}
+.donate-plan{
+    margin-top: 100px;
+    text-align: center;
+}
+.donate-plan-title{
+    margin-bottom: 50px;
+}
+.donate-plan-title p{
+    color: grey;
+    font-size: 18px;
+}
+.donate h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.donate-plan-title h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.money>div{
+    height: 100px;
+    width: 128px;
+    margin: 20px 20px 0 0;
+    border-radius: 5px;
+    text-align: center;
+    
+    
+}
+.money>div h3{
+    padding: 28px 10px;
+}
+.common-bg-color{
+    background-color: rgba(128, 128, 128, 0.149);
+}
+.common-money-color{
+    color: rgba(47, 79, 79, 0.595);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 28px;
+    
+   
+}
+.lal-taka{
+    background-color: rgba(255, 99, 71, 0.286);
+    border: 3px solid tomato;
+    color: tomato;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+
+}
+#amount{
+    text-align: center;
+    position: relative;
+    left: 40%;
+    margin-top: 20px;
+    border: none;
+    /* border-bottom: 2px solid grey; */
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 800;
+}
+::placeholder{
+    font-size: 16px;
+    color: rgba(128, 128, 128, 0.863);
+    font-weight: 700;
+    text-align: left;
+    /* padding: 15px 0; */
+    padding: 20px 25px;
+    margin-bottom: 10px;
+}
+
+.primary-btn-2{
+   background-color: rgba(255, 0, 0, 0.711);
+   padding: 10px 15px;
+   height: 45px;
+   font-weight: 570;
+   font-size: 18px;
+   width: 135px;
+   border: none;
+   border-radius: 5px;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.9);
+   cursor: pointer;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   position: relative;
+   left: 43.5%;
+}
+.common-hr{
+    text-align: center;
+    border: 1px solid grey;
+    /* border-collapse: collapse; */
+    margin: 0 200px 0 200px;
+}
+/* Donate Plan Section Design */
+.donate-plan-card{
+    display: flex;
+    text-align: left;
+    
+}
+.donate-plan-card>div{
+    margin: 0 15px;
+    padding: 70px 25px;
+    height: 300px;
+    border-radius: 5px;
+    height: 350px;
+}
+.donate-plan-card h2,p{
+   margin-top: 25px;
+}
+.donate-plan-card p{
+    color: darkslategray;
+    font-weight: 400;
+    font-size: 16px;
+}
+.donate-plan-card h2{
+    color: rgba(0, 0, 0, 0.81);
+    font-weight: 600;
+    font-size: 26px;
+}
+.teal-bg{
+    background-color: rgba(0, 128, 128, 0.202);
+}
+.coral-bg{
+    background-color: rgba(255, 127, 80, 0.345);
+}
+.yellow-bg{
+    background-color: rgba(255, 255, 0, 0.197);
+}
+/* Depend section */
+.depend-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.depend-container>div{
+    margin: 0 100px 0 0;
+}
+.depend-container img{
+    height: 320px;
+    width: 350px;
+    border-radius: 5px;
+}
+.depend-container p{
+    color: grey;
+}
+.depend-container h2{
+    color: rgba(0, 0, 0, 0.907);
+    font-weight: 700;
+    font-size: 30px;
+}
+.primary-btn-3{
+    background-color: rgba(255, 0, 0, 0.711);
+    height: 52px;
+    font-weight: 570;
+    font-size: 18px;
+    width: 190px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 20px;
+   
+ }
+ /* Survive Section Design */
+ .survive-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+ }
+ .survive-container p{
+    color: grey;
+ }
+.survive-container h2{
+    color: rgba(0, 0, 0, 0.907);
+    font-weight: 700;
+    font-size: 30px;
+}
+ .survive-container>div{
+    margin: 0 100px 0 0;
+ }
+ .survive-container img{
+    height: 320px;
+    width: 350px;
+    border-radius: 5px;
+}
+.primary-btn-4{
+    background-color: rgba(255, 0, 0, 0.711);
+    height: 52px;
+    font-weight: 570;
+    font-size: 18px;
+    width: 190px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 20px;
+   
+ }
+ /* Updates Section Design */
+ .update-container{
+    text-align: center;
+    margin-top: 70px;
+ }
+ .update-container p{
+    color: grey;
+    font-size: 18px;
+ }
+ .update-container h2{
+    color: rgba(0, 0, 0, 0.926);
+    font-weight: 800;
+    font-size: 40px;
+
+ }
+ .subscribe-container{
+    display: flex;
+    height: 190px;
+ }
+ .subscribe{
+    background-color: rgba(245, 222, 179, 0.681);
+    padding: 60px 50px;
+    width: 65%;
+   
+    position: relative;
+    left: 20%;
+    border-radius: 5px;
+ }
+ 
+ .subscribe>input[type="email"]{
+    padding: 15px 20px;
+    margin-right: 30%;
+    border: none;
+    border-radius: 5px;
+    width: 280px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    background-color: rgba(211, 211, 211, 0.82);
+ }
+ .primary-btn-5{
+    background-color: rgba(255, 0, 0, 0.721);
+    height: 42px;
+    font-weight: 590;
+    font-size: 18px;
+    width: 150px;
+    border: none;
+    /* border-left: transparent; */
+    border-radius: 3px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.946);
+    cursor: pointer;
+    /* margin-top: 35px;
+    margin-bottom: 20px; */
+    position: relative;
+    top: 79px;
+    right: 105px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ .updates{
+    margin-bottom: 100px;
+ }
+ /* Footer section Design */
+ .Footer-section{
+    background-color: black;
+    height: 150px;
+    border-bottom: 5px solid grey ;
+    box-shadow: 5px 3px 3px 3px grey;
+ }
+ .footer-info{
+    text-align: center;
+    
+ }
+
+ .footer-info h3{
+    color: tomato;
+    padding-top: 50px;
+    font-size: 28px;
+    font-weight: 800;
+    font-style: italic;
+ }
+ .footer-info p{
+    color: darkslategrey;
+    text-shadow: 2px 1px 1px black;
+ }
